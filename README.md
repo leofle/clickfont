@@ -8,7 +8,7 @@ Clickfont is an icon library using fonts, based on Font-awesome arquitechture.
 
 You can also:
   - Add new icons using Icomoon platform.
-  - Just upload the selector.json file 
+  - Just upload the selection.json file 
   - Ask for a pull request to add icons.
   
 
