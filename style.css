@@ -1,0 +1,569 @@
+@font-face {
+  font-family: 'clickfont';
+  src:  url('fonts/clickfont.eot?9fh3wl');
+  src:  url('fonts/clickfont.eot?9fh3wl#iefix') format('embedded-opentype'),
+    url('fonts/clickfont.ttf?9fh3wl') format('truetype'),
+    url('fonts/clickfont.woff?9fh3wl') format('woff'),
+    url('fonts/clickfont.svg?9fh3wl#clickfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'clickfont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.w6-addclipboard:before {
+  content: "\e900";
+}
+.w6-adsl:before {
+  content: "\e901";
+}
+.w6-arrowdown:before {
+  content: "\e902";
+}
+.w6-arrowleft:before {
+  content: "\e903";
+}
+.w6-arrowright:before {
+  content: "\e904";
+}
+.w6-arrowup:before {
+  content: "\e905";
+}
+.w6-blinds:before {
+  content: "\e906";
+}
+.w6-cablet:before {
+  content: "\e907";
+}
+.w6-calibrate:before {
+  content: "\e908";
+}
+.w6-car:before {
+  content: "\e909";
+}
+.w6-cctv:before {
+  content: "\e90a";
+}
+.w6-check:before {
+  content: "\e90b";
+}
+.w6-circle:before {
+  content: "\e90c";
+}
+.w6-circleo:before {
+  content: "\e90d";
+}
+.w6-co:before {
+  content: "\e90e";
+}
+.w6-corrective:before {
+  content: "\e90f";
+}
+.w6-desktop:before {
+  content: "\e910";
+}
+.w6-dict:before {
+  content: "\e911";
+}
+.w6-dish:before {
+  content: "\e912";
+}
+.w6-drai:before {
+  content: "\e913";
+}
+.w6-drop:before {
+  content: "\e914";
+}
+.w6-edit:before {
+  content: "\e915";
+}
+.w6-editrecc:before {
+  content: "\e916";
+}
+.w6-emerg:before {
+  content: "\e917";
+}
+.w6-erepair:before {
+  content: "\e918";
+}
+.w6-exca:before {
+  content: "\e919";
+}
+.w6-fiber:before {
+  content: "\e91a";
+}
+.w6-field:before {
+  content: "\e91b";
+}
+.w6-follow:before {
+  content: "\e91c";
+}
+.w6-fridge:before {
+  content: "\e91d";
+}
+.w6-garage:before {
+  content: "\e91e";
+}
+.w6-gear:before {
+  content: "\e91f";
+}
+.w6-get:before {
+  content: "\e920";
+}
+.w6-hamburger:before {
+  content: "\e921";
+}
+.w6-hang:before {
+  content: "\e922";
+}
+.w6-hipressure:before {
+  content: "\e923";
+}
+.w6-home:before {
+  content: "\e924";
+}
+.w6-info:before {
+  content: "\e925";
+}
+.w6-iptv:before {
+  content: "\e926";
+}
+.w6-laptop:before {
+  content: "\e927";
+}
+.w6-leak:before {
+  content: "\e928";
+}
+.w6-leakmain:before {
+  content: "\e929";
+}
+.w6-leakrout:before {
+  content: "\e92a";
+}
+.w6-line:before {
+  content: "\e92b";
+}
+.w6-lowpressure:before {
+  content: "\e92c";
+}
+.w6-manager:before {
+  content: "\e92d";
+}
+.w6-map:before {
+  content: "\e92e";
+}
+.w6-markn:before {
+  content: "\e92f";
+}
+.w6-meter:before {
+  content: "\e93c";
+}
+.w6-metere:before {
+  content: "\e93d";
+}
+.w6-mtask:before {
+  content: "\e93e";
+}
+.w6-na:before {
+  content: "\e93f";
+}
+.w6-network:before {
+  content: "\e940";
+}
+.w6-new:before {
+  content: "\e941";
+}
+.w6-nowater:before {
+  content: "\e942";
+}
+.w6-object:before {
+  content: "\e943";
+}
+.w6-on:before {
+  content: "\e944";
+}
+.w6-overcon:before {
+  content: "\e945";
+}
+.w6-overrep:before {
+  content: "\e946";
+}
+.w6-photoc:before {
+  content: "\e947";
+}
+.w6-pickup:before {
+  content: "\e948";
+}
+.w6-pin:before {
+  content: "\e949";
+}
+.w6-preventive:before {
+  content: "\e94a";
+}
+.w6-printer:before {
+  content: "\e94b";
+}
+.w6-priore:before {
+  content: "\e94c";
+}
+.w6-priority:before {
+  content: "\e94d";
+}
+.w6-rec:before {
+  content: "\e94e";
+}
+.w6-reception:before {
+  content: "\e94f";
+}
+.w6-rectangle:before {
+  content: "\e950";
+}
+.w6-rectangleo:before {
+  content: "\e951";
+}
+.w6-reins:before {
+  content: "\e952";
+}
+.w6-remrec:before {
+  content: "\e953";
+}
+.w6-reshuffle:before {
+  content: "\e954";
+}
+.w6-router:before {
+  content: "\e955";
+}
+.w6-routine:before {
+  content: "\e956";
+}
+.w6-safetyins:before {
+  content: "\e957";
+}
+.w6-schedule:before {
+  content: "\e958";
+}
+.w6-schedup:before {
+  content: "\e959";
+}
+.w6-server:before {
+  content: "\e95a";
+}
+.w6-sewer:before {
+  content: "\e95b";
+}
+.w6-showr:before {
+  content: "\e95c";
+}
+.w6-shutnon:before {
+  content: "\e95d";
+}
+.w6-smok:before {
+  content: "\e95e";
+}
+.w6-solar:before {
+  content: "\e95f";
+}
+.w6-switch:before {
+  content: "\e960";
+}
+.w6-task:before {
+  content: "\e961";
+}
+.w6-threedots:before {
+  content: "\e962";
+}
+.w6-ticket:before {
+  content: "\e963";
+}
+.w6-toggleoffo:before {
+  content: "\e964";
+}
+.w6-toggleoffreco:before {
+  content: "\e965";
+}
+.w6-toggleon:before {
+  content: "\e966";
+}
+.w6-toggleonrec:before {
+  content: "\e967";
+}
+.w6-triangle:before {
+  content: "\e930";
+}
+.w6-triangleo:before {
+  content: "\e931";
+}
+.w6-tv:before {
+  content: "\e96a";
+}
+.w6-undergrep:before {
+  content: "\e96b";
+}
+.w6-unschedule:before {
+  content: "\e96c";
+}
+.w6-userdcon:before {
+  content: "\e96d";
+}
+.w6-valve:before {
+  content: "\e96e";
+}
+.w6-vault:before {
+  content: "\e96f";
+}
+.w6-vaultre:before {
+  content: "\e932";
+}
+.w6-voltest:before {
+  content: "\e971";
+}
+.w6-warning:before {
+  content: "\e972";
+}
+.w6-x:before {
+  content: "\e933";
+}
+.w6-v:before {
+  content: "\e934";
+}
+.w6-exclamation:before {
+  content: "\e935";
+}
+.w6-question:before {
+  content: "\e936";
+}
+.w6-refresh:before {
+  content: "\e937";
+}
+.w6-happy:before {
+  content: "\e938";
+}
+.w6-sad:before {
+  content: "\e939";
+}
+.w6-tongue:before {
+  content: "\e93a";
+}
+.w6-lunch:before {
+  content: "\e93b";
+}
+.w6-lunch_over:before {
+  content: "\e968";
+}
+.w6-daily:before {
+  content: "\e969";
+}
+.w6-weekly:before {
+  content: "\e970";
+}
+.w6-monthly:before {
+  content: "\e973";
+}
+.w6-crew-o:before {
+  content: "\e974";
+}
+.w6-crew:before {
+  content: "\e975";
+}
+.w6-sort:before {
+  content: "\e976";
+}
+.w6-search:before {
+  content: "\e977";
+}
+.w6-newna:before {
+  content: "\e978";
+}
+.w6-filter:before {
+  content: "\e979";
+}
+.w6-clock:before {
+  content: "\e97a";
+}
+.w6-plus:before {
+  content: "\e97b";
+}
+.w6-minus:before {
+  content: "\e97c";
+}
+.w6-minimize:before {
+  content: "\e97d";
+}
+.w6-concapacity:before {
+  content: "\e97e";
+}
+.w6-workhours:before {
+  content: "\e97f";
+}
+.w6-cross:before {
+  content: "\e980";
+}
+.w6-cloud:before {
+  content: "\e981";
+}
+.w6-fire:before {
+  content: "\e982";
+}
+.w6-lightning:before {
+  content: "\e983";
+}
+.w6-moon:before {
+  content: "\e984";
+}
+.w6-mountains:before {
+  content: "\e985";
+}
+.w6-rain:before {
+  content: "\e986";
+}
+.w6-snow:before {
+  content: "\e987";
+}
+.w6-sun:before {
+  content: "\e988";
+}
+.w6-water:before {
+  content: "\e989";
+}
+.w6-circlex:before {
+  content: "\e98a";
+}
+.w6-form:before {
+  content: "\e98b";
+}
+.w6-resize:before {
+  content: "\e98c";
+}
+.w6-bundler:before {
+  content: "\e98d";
+}
+.w6-bundleTask:before {
+  content: "\e98e";
+}
+.w6-newBundle:before {
+  content: "\e98f";
+}
+.w6-unbundle:before {
+  content: "\e990";
+}
+.w6-lock:before {
+  content: "\e991";
+}
+.w6-rescheduleLunch:before {
+  content: "\e992";
+}
+.w6-excludeLunch:before {
+  content: "\e993";
+}
+.w6-firstaid:before {
+  content: "\e994";
+}
+.w6-global:before {
+  content: "\e995";
+}
+.w6-lifesave:before {
+  content: "\e996";
+}
+.w6-mail:before {
+  content: "\e997";
+}
+.w6-picture:before {
+  content: "\e998";
+}
+.w6-speaker:before {
+  content: "\e999";
+}
+.w6-trash:before {
+  content: "\e99a";
+}
+.w6-wall:before {
+  content: "\e99b";
+}
+.w6-star:before {
+  content: "\e99c";
+}
+.w6-starb:before {
+  content: "\e99d";
+}
+.w6-starhalf:before {
+  content: "\e99e";
+}
+.w6-mdt:before {
+  content: "\e99f";
+}
+.w6-ping:before {
+  content: "\e9a0";
+}
+.w6-noping:before {
+  content: "\e9a1";
+}
+.w6-mic:before {
+  content: "\e9a2";
+}
+.w6-user:before {
+  content: "\e9a3";
+}
+.w6-crewteam:before {
+  content: "\e9a4";
+}
+.w6-console:before {
+  content: "\e9a5";
+}
+.w6-camera:before {
+  content: "\e9a6";
+}
+.w6-empty:before {
+  content: "\e9a7";
+}
+.w6-full:before {
+  content: "\e9a8";
+}
+.w6-cut:before {
+  content: "\e9a9";
+}
+.w6-cloud-up:before {
+  content: "\e9aa";
+}
+.w6-cloud-down:before {
+  content: "\e9ab";
+}
+.w6-partial:before {
+  content: "\e9ac";
+}
+.w6-multi:before {
+  content: "\e9ad";
+}
+.w6-folder:before {
+  content: "\e9ae";
+}
+.w6-folder_e:before {
+  content: "\e9af";
+}
+.w6-save:before {
+  content: "\e9b0";
+}
+.w6-wifi:before {
+  content: "\e9b1";
+}
+.w6-overlap:before {
+  content: "\e9b2";
+}
+.w6-inbox:before {
+  content: "\e9b3";
+}
+.w6-truck:before {
+  content: "\e9b4";
+}
