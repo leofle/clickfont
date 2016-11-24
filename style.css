@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'clickfont';
-  src:  url('fonts/clickfont.eot?9fh3wl');
-  src:  url('fonts/clickfont.eot?9fh3wl#iefix') format('embedded-opentype'),
-    url('fonts/clickfont.ttf?9fh3wl') format('truetype'),
-    url('fonts/clickfont.woff?9fh3wl') format('woff'),
-    url('fonts/clickfont.svg?9fh3wl#clickfont') format('svg');
+  src:  url('fonts/clickfont.eot?lcdtso');
+  src:  url('fonts/clickfont.eot?lcdtso#iefix') format('embedded-opentype'),
+    url('fonts/clickfont.ttf?lcdtso') format('truetype'),
+    url('fonts/clickfont.woff?lcdtso') format('woff'),
+    url('fonts/clickfont.svg?lcdtso#clickfont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -567,3 +567,22 @@ i {
 .w6-truck:before {
   content: "\e9b4";
 }
+.w6-arrow-left:before {
+  content: "\e9b5";
+}
+.w6-arrow-right:before {
+  content: "\e9b6";
+}
+.w6-dashed:before {
+  content: "\e9b7";
+}
+.w6-undercap:before {
+  content: "\e9b8";
+}
+.w6-overcap:before {
+  content: "\e9b9";
+}
+.w6-fullcap:before {
+  content: "\e9ba";
+}
+
