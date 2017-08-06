@@ -13,7 +13,7 @@ You can also:
   
 
 
-> Just try to follow the same guide-style for the icons you make.
+> Just try to follow the same style-guide for the icons you make.
 
 
 ### Installation
