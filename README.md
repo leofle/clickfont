@@ -1,4 +1,4 @@
-# Clickfont
+# ClickFont
 
 Clickfont is an icon library using fonts, based on Font-awesome arquitechture.
 
